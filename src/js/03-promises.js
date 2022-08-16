@@ -26,6 +26,8 @@ function submitForm(event) {
   
 }
 
+
+
 function createPromise(position, delay) {
   const shouldResolve = Math.random() > 0.3;
   const formData = { position, delay };
